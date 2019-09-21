@@ -1,0 +1,9 @@
+numpy==1.14.2
+pandas==0.22.0
+nose==1.3.7
+sphinx==1.8.1
+pytest==3.8.2
+
+# Github repos can be locally installed automatically too, and be explicit about the branch or even the commit you which to  install.
+# Below is a dummy repo used as an example.
+git+git://github.com/kennethreitz/samplemod@master
