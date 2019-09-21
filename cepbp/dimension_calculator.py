@@ -2,8 +2,8 @@ from __future__ import print_function
 from cepbp.common.input_testing import TestInputs
 from cepbp.common.logs import Logs
 from cepbp.common.custom_error_handler import CustomError
-from areas import Areas
-from perimeters import Perimeters
+from cepbp.areas import Areas
+from cepbp.perimeters import Perimeters
 import configparser
 import logging
 import sys
