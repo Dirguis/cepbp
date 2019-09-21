@@ -1,6 +1,6 @@
 from __future__ import print_function
 from context import cepbp
-from cepbp.perimeters.perimeters import Perimeters
+from cepbp.perimeters import Perimeters
 from cepbp.common.custom_error_handler import CustomError
 from cepbp.dimension_calculator import DimensionCalculator
 import numpy as np

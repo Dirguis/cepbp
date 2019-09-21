@@ -1,1 +1,1 @@
-from perimeters import Perimeters
+from cepbp.perimeters.perimeters import Perimeters
