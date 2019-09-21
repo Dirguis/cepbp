@@ -60,6 +60,9 @@ class TestInputs(object):
         """
         if (isinstance(measurements, list) | isinstance(measurements, tuple)):
             for measurement in measurements:
+                if isinstance(measurement, str):
+                    error_msg = 'Individual measurements cannot be strings'
+                    return error_msg
                 if measurement <= 0:
                     error_msg = 'All measurements must be positive: {}'.format(measurements)
                     return error_msg
