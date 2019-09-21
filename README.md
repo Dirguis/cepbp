@@ -41,7 +41,7 @@ workon <environment name>
 
 Copy the repo into an appropriate location:
 ```
-git clone ssh://git@adlm.nielsen.com:7999/~foda8001/cepbp.git
+git clone https://github.com/Dirguis/cepbp.git
 ```
 
 More information: [https://docs.python-guide.org/dev/virtualenvs/]
