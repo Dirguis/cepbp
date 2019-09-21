@@ -56,7 +56,7 @@ pip install -r requirements.txt
 ```
 Note that if you want to install packages/repos directly from bitbucket, you can do it by using the same url given to clone the repo and you can specify a given branch, like so:
 ```
-pip install git+ssh://git@adlm.nielsen.com:7999/~foda8001/cepbp@master
+pip install git+https://github.com/Dirguis/cepbp@master
 ```
 However, this is intended if you are not actively developing the package.
 
